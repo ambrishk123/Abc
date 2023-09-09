@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clip{
+            clip-path: circle(46.1% at 50% 50%);
+        }
+        div{
+            height: 80px;
+            width: 160px;
+            padding: 20px;
+            border: 8px red;
+            background: yellow;
+        }
+
+        .content-box{
+            box-sizing: content-box;
+        }
+
+    </style>
+</head>
+<body>
+   <img class="clip" src="img.jpg" width="500" height="550" alt="">
+   <div class="content-box"> content-box </div>
+</body>
+</html>
